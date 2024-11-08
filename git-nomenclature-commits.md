@@ -54,6 +54,7 @@ Le numéro de la tâche ou de l'issue correspondant au commit.
 
 > **Information facultative** : le renseignement de réfrenece de l'issue ou tâche est facultative.
 
+<<<<<<< HEAD
 ## Les bonnes pratiques de l'utilisation des commits
 
 - Des commits independants les un des autres.
@@ -64,6 +65,8 @@ Le numéro de la tâche ou de l'issue correspondant au commit.
   - Corrigection d'un bug ou une fonctionnalité.
   - Ajout d'une documentation ou documentation d'une fichier, d'une fonction
   - ...
+=======
+>>>>>>> 83348aa7d9d4fb13dac53500da9fa184b9b00b6b
 ___
 
 Menu general : [Nomenclature branches](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-nomenclature-branches.md) - [Nomenclature commits](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-nomenclature-commits.md) - [Fonctionnalité branche](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-fonctionnalites-installation.md) - [Fonctionnalité commit](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-fonctionnalites-installation.md) - [Installation](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-fonctionnalites-installation.md#installation)
