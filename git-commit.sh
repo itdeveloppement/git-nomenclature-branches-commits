@@ -65,7 +65,7 @@ createMessageCommit() {
 
     # Demander si l'utilisateur veut faire un git pull
     echo -e "--- Nous vous conseillons de mettre à jour la branche local\n en intégrant les modifications ditantes si y en à\n et de résoudre les conflits si nécessaire.\n"
-    read -p " -> Voulez-vous mettre à jour la branche locale ? (y/n) : " pull
+    read -p " -> Voulez-vous mettre à jour la branche locale à partir de la branche distante (pull)? (y/n) : " pull
     if [[ "$pull" =~ ^(y|Y|yes|Yes|oui|Oui|OUI)$ ]]; then
         echo "--- Résultat de la mise à jour"
         git pull
@@ -74,7 +74,8 @@ createMessageCommit() {
     fi
 
     # Demander si l'utilisateur veut faire un git push
-    read -p " -> Voulez-vous pousser la branche locale vers de depot distant ? (y/n) : " push
+    echo ""
+    read -p " -> Voulez-vous pousser la branche locale vers le depôt distant (push)? (y/n) : " push
     if [[ "$push" =~ ^(y|Y|yes|Yes|oui|Oui|OUI)$ ]]; then
         echo "--- Résultat de la mise à jour"
         git push
