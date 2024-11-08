@@ -16,4 +16,4 @@ Solution operationnelle pour répondre à la problématique de cohérence dans l
 - [Installation](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-fonctionnalites-installation.md#installation)
 
 ## Autheur
-https://github.com/itdeveloppement
+https://github.com/itdeveloppement 
