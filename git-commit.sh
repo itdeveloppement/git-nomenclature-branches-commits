@@ -74,7 +74,8 @@ createMessageCommit() {
     fi
 
     # Demander si l'utilisateur veut faire un git push
-    read -p " -> Voulez-vous pousser la branche locale vers de depot distant ? (y/n) : " push
+    echo ""
+    read -p " -> Voulez-vous pousser la branche locale vers de depôt distant ? (y/n) : " push
     if [[ "$push" =~ ^(y|Y|yes|Yes|oui|Oui|OUI)$ ]]; then
         echo "--- Résultat de la mise à jour"
         git push
