@@ -12,7 +12,9 @@ Le domaine reprend le rôle des branches.
 
 > **Information obligatoire** : le renseignement du domaine est obligatoire.
 
-| Rôle de la branche      | Domaine commit  | Objectif                                                 |
+### Tableau des Commits : Nommage et Objectif
+
+| En lien avec la branche | Nommage         | Objectif                                                 |
 |-------------------------|-----------------|----------------------------------------------------------|
 | **Pré-production**      | `release`       | Stabiliser la version avant mise en production           |
 | **Fonctionnalité**      | `feature`       | Ajouter, modifier, supprimer des fonctionnalités         |
@@ -41,7 +43,7 @@ Il existe quatre actions possibles :
 | Corriger             | `-fix`  | Corrige une fonctionnalité, un élément, un environnement, etc. |
 
 > **Information obligatoire** : le renseignement du detail d'une action est obligatoire.
-> 
+
 ## Message
 
 Le message doit être **descriptif** (non générique) et expliquer concrètement la raison de l'action menée dans ce commit.

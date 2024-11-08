@@ -1,3 +1,4 @@
+
 Menu general : [Nomenclature branches](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-nomenclature-branches.md) - [Nomenclature commits](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-nomenclature-commits.md) - [Fonctionnalité commit](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-fonctionnalites-installation.md) - [Fonctionnalité branche](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-fonctionnalites-installation.md) - [Installation](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-fonctionnalites-installation.md#installation)
 
 # Fonctionnalités
@@ -24,7 +25,9 @@ Elle est appelée dans le terminal par : `branch`.
 
 ## Fichier de configuration des fonctionnalités
 
+
 1. Créer un fichier [git_commit.sh](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-commit.sh) et un fichier [git_branch.sh](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-branch.sh) à la racine du projet ou dans un dossier git-script.
+
 2. Copier-coller le code du dépôt dans chaque fichier.
 
 ## Fichier de configuration du terminal
@@ -44,6 +47,7 @@ Ouvrez le fichier de configuration en fonction de votre terminal pour ajouter le
 
 Rechargez le fichier pour que l'alias soit pris en compte :
 - Pour Bash : `source ~/.bashrc`
+
 
 ___
 

@@ -1,3 +1,4 @@
+
 Menu general : [Nomenclature branches](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-nomenclature-branches.md) - [Nomenclature commits](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-nomenclature-commits.md) - [Fonctionnalité commit](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-fonctionnalites-installation.md) - [Fonctionnalité branche](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-fonctionnalites-installation.md) - [Installation](https://github.com/itdeveloppement/git-nomenclature-branches-commits/blob/develop/git-fonctionnalites-installation.md#installation)
 
 # Nomenclature des branches
@@ -18,6 +19,7 @@ Pour faciliter le développement, la correction et la mise en production, des so
 | **Tests**               | `tests/<nom-test>`              | `Non`                  | Développer et tester des suites de tests                 |
 | **Documentation**       | `docs/<nom-doc>`                | `Non`                  | Ajouter ou modifier la documentation                     |
 | **Expérimentation**     | `experiment/<nom-experiment>`   | `Non`                  | Tester des idées ou solutions temporaires                |
+
 
 ## 1. Branche principale (`main`)
 
@@ -70,6 +72,7 @@ Pour faciliter le développement, la correction et la mise en production, des so
   - `refactor/restructure_api`
   - `refactor/amelioration_performance`
 
+
 ## 7. Branches de tests (`test/`)
 
 - **Format** : `test/nom_test`
@@ -104,6 +107,7 @@ Pour faciliter le développement, la correction et la mise en production, des so
   - `experiment/alternative_auth`
   - `experiment/new_ui_layout`
   - `experiment/ai_integration`
+
 
 ___
 
