@@ -5,7 +5,7 @@ createMessageCommit() {
     # Afficher le titre et l'instruction du commit
     echo -e "\n--- Commit ---"
     echo " -> Domaine : 1. Fonctionnalité - 2. Bug - 3. Configuration - 4. Documentation"
-    echo " -> Domaine : 5. Test - 6. Refacto - 7. Essais - 8. Release - 9. Hotfix (main) - 10. Autre"
+    echo " -> Domaine : 5. Test - 6. Refacto - 7. Essais - 8. Release - 9. Autre"
 
     # Demander à l'utilisateur de choisir le domaine
     read -p " -> Choisir un numéro : " domaine_choice
@@ -20,8 +20,7 @@ createMessageCommit() {
       6) domaine="refacto" ;;
       7) domaine="essais" ;;
       8) domaine="release" ;;
-      9) domaine="hotfix" ;;
-      10) domaine="autre" ;;
+      9) domaine="autre" ;;
       *) echo "Choix non valide"; exit 1 ;;
     esac
 
