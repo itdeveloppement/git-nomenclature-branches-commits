@@ -53,6 +53,8 @@ createBranch() {
     git checkout -b "$branch"
     echo ""
     echo "--- Nouvelle branche : $branch"
+    echo "La branche est poussée sur le depot distant"
+    git push --set-upstream origin develop
 }
 
 # Appeler la fonction
