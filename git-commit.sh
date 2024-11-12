@@ -3,10 +3,17 @@
 # Définir la fonction de création de commit
 createMessageCommit() {
     # Afficher le titre et l'instruction du commit
-    echo -e "\n--- Commit ---"
-    echo " -> Domaine : 1. Fonctionnalité - 2. Bug - 3. Configuration - 4. Documentation"
-    echo " -> Domaine : 5. Test - 6. Refacto - 7. Essais - 8. Release - 9. Autre"
-
+    echo -e "\n------ Commit ------\n"
+    echo " -> 1. Fonctionnalité"
+    echo " -> 2. Bug"
+    echo " -> 3. Configuration"
+    echo " -> 4. Documentation"
+    echo " -> 5. Test"
+    echo " -> 6. Refacto"
+    echo " -> 7. Essais"
+    echo " -> 8. Release"
+    echo -e " -> 9. Autre\n"
+    
     # Demander à l'utilisateur de choisir le domaine
     read -p " -> Choisir un numéro : " domaine_choice
 
