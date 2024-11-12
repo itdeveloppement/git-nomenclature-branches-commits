@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 # Définir la fonction de création de commit
 createMessageCommit() {
