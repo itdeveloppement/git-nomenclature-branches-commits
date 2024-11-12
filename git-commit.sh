@@ -1,11 +1,11 @@
-#!/bin/bash
+#!/bin/bash 
 
 # Définir la fonction de création de commit
 createMessageCommit() {
     # Afficher le titre et l'instruction du commit
     echo -e "\n--- Commit ---"
     echo " -> Domaine : 1. Fonctionnalité - 2. Bug - 3. Configuration - 4. Documentation"
-    echo " -> Domaine : 5. Test - 6. Refacto - 7. Essais - 8. Release - 9. Hotfix (main) - 10. Autre"
+    echo " -> Domaine : 5. Test - 6. Refacto - 7. Essais - 8. Release - 9. Autre"
 
     # Demander à l'utilisateur de choisir le domaine
     read -p " -> Choisir un numéro : " domaine_choice
@@ -20,8 +20,7 @@ createMessageCommit() {
       6) domaine="refacto" ;;
       7) domaine="essais" ;;
       8) domaine="release" ;;
-      9) domaine="hotfix" ;;
-      10) domaine="autre" ;;
+      9) domaine="autre" ;;
       *) echo "Choix non valide"; exit 1 ;;
     esac
 
@@ -66,12 +65,20 @@ createMessageCommit() {
 
     # Demander si l'utilisateur veut faire un git pull
     echo -e "--- Nous vous conseillons de mettre à jour la branche local\n en intégrant les modifications ditantes si y en à\n et de résoudre les conflits si nécessaire.\n"
-    read -p " -> Voulez-vous mettre à jour la branche locale ? (y/n) : " pull
-
-    # Condition pour vérifier la réponse de l'utilisateur
+    read -p " -> Voulez-vous mettre à jour la branche locale à partir de la branche distante (pull)? (y/n) : " pull
     if [[ "$pull" =~ ^(y|Y|yes|Yes|oui|Oui|OUI)$ ]]; then
         echo "--- Résultat de la mise à jour"
         git pull
+    else
+        echo -e "Vous n'avez pas fait de mise à jour\n"
+    fi
+
+    # Demander si l'utilisateur veut faire un git push
+    echo ""
+    read -p " -> Voulez-vous pousser la branche locale vers le depôt distant (push)? (y/n) : " push
+    if [[ "$push" =~ ^(y|Y|yes|Yes|oui|Oui|OUI)$ ]]; then
+        echo "--- Résultat de la mise à jour"
+        git push
     else
         echo -e "Vous n'avez pas fait de mise à jour\n"
     fi
@@ -79,3 +86,4 @@ createMessageCommit() {
 
 # Appeler la fonction
 createMessageCommit
+
